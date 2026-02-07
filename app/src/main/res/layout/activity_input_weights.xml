@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvAircraftName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aircraft Name"
+        android:textSize="18sp"
+        android:paddingBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etFront"
+        android:hint="Front Pilot Weight"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etRear"
+        android:hint="Rear Passenger Weight"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etBaggage"
+        android:hint="Baggage Weight"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etFuel"
+        android:hint="Fuel Weight"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate CG"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvCgResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CG Result"
+        android:paddingTop="16dp"/>
+</LinearLayout>

@@ -139,4 +139,6 @@ fun InputWeightsScreen(
     }
 }
 
+//Accounts for improper field entries (letters)
+// Will return default of 0 if invalid or empty
 fun Double?.orZero() = this ?: 0.0

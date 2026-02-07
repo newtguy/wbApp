@@ -4,7 +4,7 @@ WBApp is an Android app written in Kotlin using Jetpack Compose that performs **
 
 Pilots can quickly check whether their aircraft is **within operating limitations** by entering passenger, baggage, and fuel weights. The app calculates **center of gravity (CG)** and **total weight**, highlighting any limits exceeded.
 
-[W&B Demo Video](https://www.loom.com/share/a5e7d85e118e4da4ab7adc6ac9586e3b)
+[W&B Demo Video](https://www.loom.com/share/60535720e0504da599d665012f8289be)
 
 ---
 
@@ -36,7 +36,7 @@ Pilots can quickly check whether their aircraft is **within operating limitation
 
 ## Future Work
 
-- Add additional aircraft profiles (predefined or JSON-based)
+- Add additional aircraft profiles
 - Add a menu to select different aircraft or input custom aircraft data
 - Display CG graphically within the aircraft's envelope
 - Validate weight inputs and fuel entries

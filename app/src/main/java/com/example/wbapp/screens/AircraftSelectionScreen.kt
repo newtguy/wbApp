@@ -14,23 +14,24 @@ import com.example.wbapp.Aircraft
 @Composable
 fun AircraftSelectionScreen(onSelect: (Aircraft) -> Unit) {
     Column(
+        //padding, center horiz & vert
         modifier = Modifier
-            .fillMaxSize()               // Column takes the full screen
-            .padding(16.dp),             // Add padding around edges
-        verticalArrangement = Arrangement.Center, // Center vertically
-        horizontalAlignment = Alignment.CenterHorizontally, // Center horizontally
-        // Spacing between buttons
+            .fillMaxSize()
+            .padding(16.dp),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         Text(
             "Select Aircraft",
             style = MaterialTheme.typography.titleLarge,
-            modifier = Modifier.padding(bottom = 24.dp) // space below title
+            modifier = Modifier.padding(bottom = 24.dp)
         )
 
         Button(
             onClick = { onSelect(cessna172) },
             modifier = Modifier
-                .fillMaxWidth(0.7f)   // Button takes 70% of screen width
+                // Button takes 70% of screen width
+                .fillMaxWidth(0.7f)
                 .padding(bottom = 12.dp)
         ) {
             Text("Cessna 172S", style = MaterialTheme.typography.bodyLarge)
